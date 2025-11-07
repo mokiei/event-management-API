@@ -25,7 +25,7 @@ app.post('/sign-up', (req, res) => {
 
     if(name || !email || !password) {
         res.status(400)
-        throw new Error('Please add all fields')
+        throw new Error('Please add all fields make sure')
     }
 })
 
